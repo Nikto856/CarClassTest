@@ -46,9 +46,9 @@ try:
 except:
     print("! Can not print the whole object !")
     print("Printing attributes instead.")
-    print(f"Color: {color}")
-    print(f"Type: {cartype}")
-    print(f"Horsepower: {hp}")
+    print(f"Color: {myCar.color}")
+    print(f"Type: {myCar.cartype}")
+    print(f"Horsepower: {myCar.hp}")
 
 
 # Testing methods
@@ -77,4 +77,5 @@ print(f"Printing new car.")
 try:
     print(f"New car:\n{newCar}")
 except:
-    print("! Can not print the whole object !")
+
+print(f"Also testing docstring:\n{newCar.__doc__}")
