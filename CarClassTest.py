@@ -73,6 +73,7 @@ myCar.Stop()
 print("\nInitiating a new car with attributes.")
 newCar = Car(color = 'black', cartype = 'sportscar', hp = 600)
 
+# Printing new car
 print(f"Printing new car.")
 try:
     print(f"New car:\n{newCar}")
