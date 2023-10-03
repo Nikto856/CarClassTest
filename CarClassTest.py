@@ -16,7 +16,7 @@ DriveTo(x,y) : Sets the position to x, y IF car is running
 GetPos() : Returns the position of the car
 '''
 
-import Car # <- Change if your filename differs
+from Car import * # <- Change if your filename differs
 
 # Initiating empty object
 myCar = Car()
@@ -34,8 +34,8 @@ try:
     myCar.color = "red"
     myCar.cartype = "pickup"
     myCar.hp = 290
-    myCar.position['x'] = 0
-    myCar.position['y'] = 0
+    myCar.pos['x'] = 0
+    myCar.pos['y'] = 0
     print("Attributes set.")
 except:
     print("! Could not set attributes !")
